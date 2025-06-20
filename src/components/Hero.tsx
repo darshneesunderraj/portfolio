@@ -49,7 +49,6 @@ const Hero = () => {
             className="group flex items-center gap-3 bg-gray-800 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
           >
             <Github className="w-6 h-6 transition-transform group-hover:scale-110" />
-            <Github className="w-6 h-6 transition-transform group-hover:scale-110" />
             GitHub
           </a>
         </div>
