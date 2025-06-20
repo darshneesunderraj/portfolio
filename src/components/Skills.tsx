@@ -6,25 +6,25 @@ const Skills = () => {
     {
       icon: <Code className="w-8 h-8" />,
       title: "Languages",
-      skills: ["Python", "JavaScript", "C++", "C#", "Java"],
+      skills: ["Python", "JavaScript", "C#", "Java"],
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: <Layers className="w-8 h-8" />,
       title: "Frameworks",
-      skills: ["React", "Flask", ".NET Core", "Node.js", "Express"],
+      skills: ["React", "Flask", ".NET Core", "Node.js", "TensorFlow" , "PyTorch", "Keras" ],
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Styling",
-      skills: ["Tailwind CSS", "CSS3", "SASS", "Bootstrap", "Figma"],
+      skills: ["Tailwind CSS", "Bootstrap", "Figma"],
       color: "from-green-500 to-teal-500"
     },
     {
       icon: <Settings className="w-8 h-8" />,
       title: "Tools",
-      skills: ["GitHub", "ServiceNow", "Azure", "Docker", "Vite"],
+      skills: ["GitHub", "ServiceNow", "Vite"],
       color: "from-orange-500 to-red-500"
     }
   ];
