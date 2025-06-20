@@ -15,7 +15,7 @@ const Hero = () => {
         {/* Floating Memoji Image */}
         <div className="mb-8 animate-float">
           <img
-            src={memoji} // ✅ Place your memoji.png in the public/ folder
+            src={memoji} 
             alt="Darshnee Sunderraj Memoji"
             className="w-32 h-32 rounded-full shadow-2xl object-cover border-4 border-white"
           />
@@ -51,11 +51,6 @@ const Hero = () => {
             <Github className="w-6 h-6 transition-transform group-hover:scale-110" />
             GitHub
           </a>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div className="animate-bounce">
-          <ChevronDown className="w-8 h-8 text-gray-400" />
         </div>
       </div>
     </section>
